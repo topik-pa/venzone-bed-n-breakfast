@@ -1,0 +1,20 @@
+{
+  "name": "venzone-bed-n-breakfast",
+  "description": "Il sito del B&B di Venzone",
+  "main": "",
+  "authors": [
+    "PAVAN-WS\\Marco Pavan <m.pavan@neticon.it>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}
