@@ -6,7 +6,7 @@
     "PAVAN-WS\\Marco Pavan <m.pavan@neticon.it>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/topik-pa/venzone-bed-n-breakfast",
   "ignore": [
     "**/.*",
     "node_modules",
