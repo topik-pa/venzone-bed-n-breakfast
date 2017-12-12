@@ -2,39 +2,40 @@
 <html lang="en">
   <head>
 		<% include shared/header %>
-  </head>
+	</head>
+	
   <body>
 		<% include shared/page-header %>
     
-		<div class="container-fluid">
-			<header class="page-header">
-				<h2><%= title %></h2>
-			</header>
-			<div class="row">
-				<div class="col-sm-6">
-						<h3>Sezione 1</h3>
-				</div>					
-				<div class="col-sm-6">
-						<h3>Sezione 2</h3>
-				</div>
-			</div>
-			<div class="row">
-					<div class="col-sm-4">
-							<h3>Sezione 3</h3>
-					</div>
-					<div class="col-sm-4">
-							<h3>Sezione 4</h3>
-					</div>
-					<div class="col-sm-4">
-							<h3>Sezione 5</h3>
-					</div>
-				</div>
+		<div class="layer"></div>
+		<!-- Mobile menu overlay mask -->
+		<div id="preloader">
+			<div data-loader="circle-side"></div>
 		</div>
-	
-		<% include shared/page-footer %>
+		<!-- End Preload -->
 
-		<script src="/vendor/jquery/jquery.min.js"></script>
-		<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="/vendor/vue/vue.min.js"></script>
-  </body>
+		<% include shared/page-header %>
+
+		<% include shared/page-subheader %>
+
+		<% include shared/page-content_1 %>
+
+		<% include shared/page-content_2 %>
+
+		<% include shared/page-content_3 %>
+
+		<% include shared/page-content_4 %>
+
+		<% include shared/page-promo %>
+		
+		<div id="dtBox"></div>
+		
+		<% include shared/page-footer %>
+		
+		<div id="toTop"></div>
+
+		<% include shared/js-include %>
+		
+	</body>
+	
 </html>
